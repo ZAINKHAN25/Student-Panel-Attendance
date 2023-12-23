@@ -5,7 +5,7 @@ import './App.css';
 import LoadingPage from './pages/LoadingPage/index.jsx';
 import Home from './pages/Home/index.jsx';
 import ViewClasses from './pages/ViewClasses/index.jsx';
-// import Login from './pages/Login/index.jsx';
+import Login from './pages/Login/index.jsx';
 // import ProfilePage from './pages/ProfilePage/index.jsx';
 
 function App() {
@@ -33,8 +33,8 @@ function App() {
           <>
             <Route index element={<Home />} />
             <Route path="/view-your-class" element={<ViewClasses />} />
-            {/* <Route path="/login" element={<Login />} />
-            <Route path="/student-profile" element={<ProfilePage />} /> */}
+            <Route path="/login" element={<Login />} />
+            {/* <Route path="/student-profile" element={<ProfilePage />} /> */}
           </>
         )}
       </Routes>

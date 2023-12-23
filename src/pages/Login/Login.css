@@ -1,0 +1,25 @@
+.loginwrapper {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #0873b9;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+    padding: 10px 20px;
+    width: 500px;
+}
+
+.txtoflogin, .inputoflogin{
+    width: 100%;
+}
