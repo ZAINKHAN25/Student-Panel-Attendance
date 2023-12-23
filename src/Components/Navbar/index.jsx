@@ -28,7 +28,7 @@ function Navbar({ home }) {
                     className='imgofnavbar'
                     src='https://img.freepik.com/premium-vector/cute-smiling-boy-avatar-flat-style-vector-illustration_710508-1241.jpg?w=2000'
                     alt='User Avatar'
-                    onClick={ () => navigateTo("/admin-profile")}
+                    onClick={ () => navigateTo("/student-profile")}
                     title='Profile page'
                 />
             </div>

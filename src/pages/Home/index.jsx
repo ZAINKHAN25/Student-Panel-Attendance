@@ -7,11 +7,14 @@ import AllStudents from "../../Components/AllStudents/index.jsx";
 
 function Home() {
   return (
-    <div className="d-flex homeWrapper">
+    <div className="d-flex homeWrapper flex-wrap">
       <Sidebar currentPage={"View Your Attendance"} />
       <div className='navbarofhome'>
         <Navbar />
-        <h2 className='text-center' style={{ color: "#0873b9" }}>View Your Attendence</h2>
+        <div className='d-flex justify-content-between px-5 flex-wrap my-3'>
+          <h2 className='text-center' style={{ color: "#0873b9" }}>View Your Attendence</h2>
+          <button type="button" className="btn btn-primary">Mark Attendence</button>
+        </div>
         <AllStudents />
       </div>
     </div>

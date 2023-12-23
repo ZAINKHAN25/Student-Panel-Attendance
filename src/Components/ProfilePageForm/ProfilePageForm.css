@@ -1,0 +1,45 @@
+.imgofprofile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 0 auto;
+    /* Remove position: absolute; */
+    transition: display 1s;
+}
+
+.imgdivofprofileadmin {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Add position: relative; */
+}
+
+.imgofprofile:hover {
+    display: none;
+}
+
+.imgofprofile:hover + .imgofsecond {
+    display: block;
+}
+
+.imgofsecond {
+    display: none;
+}
+
+.inputdivofpictureprofile{
+    width: 50px;
+}
+
+.addStudentform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #0873b9;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(0,0, 0,30%);
+    padding: 10px 5%;
+}
