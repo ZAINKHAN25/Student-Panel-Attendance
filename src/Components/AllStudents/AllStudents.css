@@ -1,0 +1,29 @@
+.AllStudentsWrapper {
+    background-color: #f0f0f0;
+    color: #0873b9;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(0,0, 0,30%);
+}
+
+.headingAreaAllStudents {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.singledivofallstudents{
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.singledivofallstudents:hover {
+    text-decoration: underline;
+}
+
+.seestudentmodalimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid black;
+}

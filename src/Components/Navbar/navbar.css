@@ -1,0 +1,38 @@
+.navbarwrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background-color: white;
+    color: #0873b9;
+    align-items: center;
+}
+
+.imgofnavbar{
+    width: 40px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.inputareadiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputdivnavbar{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 8px 20px;
+}
+
+.inputofnavbar{
+    border: none;
+}
+
+.inputofnavbar:focus {
+    outline: none;
+}
