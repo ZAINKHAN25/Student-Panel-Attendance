@@ -9,7 +9,7 @@ function Sidebar({ currentPage }) {
     let allsidebardata = [
         {
             sidename: "View Your Attendance",
-            addresofside: "/view-your-attendence",
+            addresofside: "/",
             icon: `fa-solid fa-clipboard-user`
         },
         {
