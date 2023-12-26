@@ -15,7 +15,7 @@ function Home() {
       maxLatitude: 67.0018284
     };
 
-
+// this is comment
     try {
       const position = await new Promise((resolve, reject) => {
         navigator.geolocation.getCurrentPosition(resolve, reject);
