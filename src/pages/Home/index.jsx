@@ -7,6 +7,8 @@ import AllStudents from "../../Components/AllStudents/index.jsx";
 
 function Home() {
 
+
+  // this is comment
   async function getLocation() {
     const campusLocation = {
       minLongitude: 24.9191172,
